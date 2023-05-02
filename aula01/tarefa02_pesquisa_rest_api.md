@@ -17,16 +17,16 @@ Uma Rest API é uma API que segue o modelo arquitetural Rest (Representational S
 - **Cliente-Servidor:**
 Trata a respeito da separação de responsabilidades, ou seja, separar as preocupações de interface do usuário (User Interface) do banco de dados, abstraindo a dependência entre os lados clientes/servidor e permitindo a evolução desses componentes sem impacto e quebra de contrato.
 
-- **Estado das requisições:** 
+- **Estado das requisições:**
 As requisições para uma Rest API devem ser autocontidas, ou seja, todas as informações necessárias para executar a requisição devem estar presentes nela mesma, não dependendo de um estado de sessão previamente armazenado no servidor.
 
-- **Interface uniforme:** 
+- **Interface uniforme:**
 O protocolo utilizado deve ser padronizado e previsível, com as mesmas convenções de nomenclatura e estrutura para todos os recursos, permitindo que os clientes possam entender como interagir com a API.
 
-- **Sistema em camadas:** 
+- **Sistema em camadas:**
 a arquitetura deve permitir a inclusão de camadas intermediárias, como balanceadores de carga, caches e gateways, para melhorar a escalabilidade e a disponibilidade.
 
-- **Armazenável em cache:** 
+- **Armazenável em cache:**
 Como uma API sem estado pode aumentar sobrecarga de solicitação gerenciando grandes cargas de chamadas de entrada e saída, um design de API REST deve armazenar dados em cache. Se uma resposta puder ser armazenada em cache, o cache do cliente terá o direito de reciclar os dados de resposta para solicitações semelhantes no futuro.
 
 - **Operações HTTP:**
