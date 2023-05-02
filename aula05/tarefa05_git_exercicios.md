@@ -56,18 +56,16 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 ### Respostas
 
 1. `git --version` mostra a versão do git instalada
-2.
-
-  a. `git help` mostra o manual do git e os comandos disponíveis para uso
-  b. `git help checkout` abre a documentação do git pela web sobre o comando o checkout, para consulta
-  c. `git help merge` abre a documentação do git pela web sobre o comando merge, para consulta
-  d. `git init` inicializa um repositório git
-  e. `git add --all` adiciona todas as modificaçoões, incluindo novos arquivos, em staged para ser commitado no futuro
-  f. `git add -u` é mais seletivo, pois adiciona as mudanças feitas em arquivos jã existentes no staging area
-  g. `git config -l` é usado para listar as configurações do Git em um determinado diretório
-  h. `git mv a.txt b.txt` renomeia o arquivo "a.txt" para "b.txt" no repositório Git
-  i. `git reset --hard` é usado para desfazer todas as mudanças locais e restaurar o diretório de trabalho para o último commit.
-  j. `git log -27` mostra os ultimos 27 commits no histórico do git
+- 2a `git help` mostra o manual do git e os comandos disponíveis para uso
+- 2b `git help checkout` abre a documentação do git pela web sobre o comando o checkout, para consulta
+- 2c `git help merge` abre a documentação do git pela web sobre o comando merge, para consulta
+- 2d `git init` inicializa um repositório git
+- 2e `git add --all` adiciona todas as modificaçoões, incluindo novos arquivos, em staged para ser commitado no futuro
+- 2f `git add -u` é mais seletivo, pois adiciona as mudanças feitas em arquivos jã existentes no staging area
+- 2g `git config -l` é usado para listar as configurações do Git em um determinado diretório
+- 2h `git mv a.txt b.txt` renomeia o arquivo "a.txt" para "b.txt" no repositório Git
+- 2i `git reset --hard` é usado para desfazer todas as mudanças locais e restaurar o diretório de trabalho para o último commit.
+- 2j `git log -27` mostra os ultimos 27 commits no histórico do git
 3. `git add .` para adicionar todas as alterações realizadas e `git commit -m "mensagem"` para realizar o commit
 4. `git diff` é o comando que identifica o que foi alterado desde o último commit
 5. `git status` exibe os arquivos que não estão sendo rastreados pelo Git na seção "untracked files"
