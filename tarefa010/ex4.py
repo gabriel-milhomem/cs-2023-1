@@ -1,4 +1,5 @@
 IPI = float(input("Digite a porcentagem do IPI: "))
+
 codigo_peca1 = input("Digite o código da primeira peça: ")
 valor_peca1 = float(input("Digite o valor da primeira peça: "))
 quantidade_peca1 = int(input("Digite a quantidade da primeira peça: "))
